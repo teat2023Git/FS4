@@ -74,7 +74,7 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/GreyMatter_Bots")
+                        InlineKeyboardButton("🔰𝐔𝐩𝐜𝐨𝐦𝐢𝐧𝐠 𝐌𝐨𝐯𝐢𝐞𝐬 𝐔𝐩𝐝𝐚𝐭𝐞🔰", url="https://t.me/KMCLUB2023")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -82,9 +82,12 @@ async def start(bot: Client, cmd: Message):
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/GreyMatter_Support"),
-                        InlineKeyboardButton("YouTube Channel", url="https://bit.ly/43x8Jhe")
-                    ]
+                        InlineKeyboardButton("✨Mᴏᴠɪᴇs Cʜᴀɴɴᴇʟ🔞✨", url="https://t.me/+ydrem2GK32k1ZTM1"),
+                        InlineKeyboardButton("🌟𝗠𝗼𝘃𝗶𝗲𝘀 𝗚𝗿𝗼𝘂𝗽🌟", url="https://t.me/+7DcokFeX8Dk0N2Jl")
+                    ],
+                    [
+                        InlineKeyboardButton("💋𝘼𝙙𝙪𝙡𝙩(18+) 𝙈𝙤𝙫𝙞𝙚 & 𝙒𝙚𝙗𝙨𝙚𝙧𝙞𝙚𝙨 Channel👄", url="https://t.me/+Ps2D3eRmT0BmNzY1")
+                    ]    
                 ]
             )
         )
@@ -124,7 +127,7 @@ async def main(bot: Client, message: Message):
                 return
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/GreyMatter_Support)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/kmzone2023)",
                                      disable_web_page_preview=True)
             return
 
@@ -319,7 +322,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://greylinks.in/iNTOJzfb")
+                                             url="https://shrs.link/C2sxbP")
                     ],
                     [
                         InlineKeyboardButton("Go Home", callback_data="gotohome"),
@@ -337,7 +340,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://greylinks.in/iNTOJzfb")
+                                             url="https://shrs.link/C2sxbP")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -354,7 +357,7 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/GreyMatter_Bots")
+                        InlineKeyboardButton("🔰𝐔𝐩𝐜𝐨𝐦𝐢𝐧𝐠 𝐌𝐨𝐯𝐢𝐞𝐬 𝐔𝐩𝐝𝐚𝐭𝐞🔰", url="https://t.me/kmclub2023")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -362,9 +365,12 @@ async def button(bot: Client, cmd: CallbackQuery):
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/GreyMatter_Support"),
-                        InlineKeyboardButton("YouTube Channel", url="https://bit.ly/43x8Jhe")
-                    ]
+                        InlineKeyboardButton("✨Mᴏᴠɪᴇs Cʜᴀɴɴᴇʟ✨", url="https://t.me/+ydrem2GK32k1ZTM1"),
+                        InlineKeyboardButton("🌟𝗠𝗼𝘃𝗶𝗲𝘀 𝗚𝗿𝗼𝘂𝗽🌟", url="https://t.me/+7DcokFeX8Dk0N2Jl")
+                    ],
+                    [
+                        InlineKeyboardButton("💋𝘼𝙙𝙪𝙡𝙩(18+) 𝙈𝙤𝙫𝙞𝙚 & 𝙒𝙚𝙗𝙨𝙚𝙧𝙞𝙚𝙨 Channel👄", url="https://t.me/+Ps2D3eRmT0BmNzY1")
+                    ]    
                 ]
             )
         )
@@ -379,7 +385,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(channel_chat_id, cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/GreyMatter_Support).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/kmzone2023).",
                         disable_web_page_preview=True
                     )
                     return
@@ -401,7 +407,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/GreyMatter_Support).",
+                    text="Something went Wrong. Contact my [𝙎𝙪𝙥𝙥𝙤𝙧𝙩 𝙂𝙧𝙤𝙪𝙥](https://t.me/kmzone2023).",
                     disable_web_page_preview=True
                 )
                 return
@@ -411,8 +417,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/GreyMatter_Bots"),
-                        InlineKeyboardButton("Support Group", url="https://t.me/GreyMatter_Support")
+                        InlineKeyboardButton("Updates Channel", url="https://t.me/kmzoneOfficial"),
+                        InlineKeyboardButton("Support Group", url="https://t.me/kmzone2023")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
