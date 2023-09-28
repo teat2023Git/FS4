@@ -34,13 +34,12 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 ╰──────[ 😎 ]───────────⍟
 """
   ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [@PredatorHackerzZ](https://github.com/PredatorHackerzZ)
+Tʜɪs Bᴏᴛ ɪs Cʀᴇᴀᴛᴇᴅ ʙʏ: [𝑴𝒓. 𝑨𝒏𝒐𝒏𝒚𝒎𝒐𝒖𝒔🦠](tg://settings)
+  
+Repo Credit : [@MeARobo](https://t.me/MeARobo)
  
- I am Super noob Please Support My Hard Work.
-
-[Donate Me](https://t.me/DonateXrobot) or MrAbhi2k3@apl
 """
   HOME_TEXT = """
-Hello, [{}](tg://user?id={})\n\nThis is a Permanent FileStore Bot.
+Hello, [{}](tg://user?id={})\n\nThis is a Permanent FileStore Bot🔞. \n𝐅𝐈𝐋𝐄 𝐖𝐎𝐍'𝐓 𝐃𝐄𝐋𝐄𝐓𝐄 𝐓𝐈𝐋𝐋 𝐈 𝐃𝐄𝐋𝐄𝐓𝐄 .
 
-Join: @GreyMatter_Bots"""
+Join: @KMZoneOfficial"""
